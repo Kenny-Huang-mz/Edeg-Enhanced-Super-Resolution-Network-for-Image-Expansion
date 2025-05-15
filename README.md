@@ -23,6 +23,7 @@ The model is especially effective at enhancing **structural clarity** (edges and
 ├── data/
 │   ├── T91/SRCNN/train_binary/   # We only use this grey image set
 │   └── Set5/GTmod12/             # Benchmark for validation
+│   └── README.md
 ├── results/                      # Evaluation outputs and pretrained weights
 ├── samples/                      # Saved models during training
 ├── my_images/                    # The image that you want to modify
@@ -37,6 +38,11 @@ conda create -n SRCNN python=3.9
 conda activate SRCNN
 pip install -r requirements.txt
 ```
+
+## Download datasets
+Contains DIV2K, DIV8K, Flickr2K, OST, T91, Set5, Set14, BSDS100 and BSDS200, etc. But we only use the T91
+- [Google Driver]([https://your-google-drive-link.com](https://drive.google.com/drive/folders/17ju2HN7Y6pyPK2CC_AqnAfTOe9_3hCQ8))
+- [Baidu Driver]([https://your-baidu-drive-link.com](https://pan.baidu.com/s/1yNs4rqIb004-NKEdKBJtYg?pwd=llot))
 
 ## Train your model
 ```
