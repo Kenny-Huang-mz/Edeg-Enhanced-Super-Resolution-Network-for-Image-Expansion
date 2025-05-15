@@ -16,7 +16,7 @@ The model is especially effective at enhancing **structural clarity** (edges and
 ```
 ├── model.py
 ├── train.py
-├── inference.py
+├── inference_x2.py
 ├── config.py
 ├── dataset.py
 ├── imgproc.py
@@ -47,7 +47,7 @@ python train.py --dataroot ./data/T91 --upscale_factor 2
 ## Run inference on your own image
 ```
 # Edit config.py to set mode="test"
-python inference.py \
+python inference_x2.py \
   --inputs_path my_images/camera.png \
   --output_path my_results/camera_sr.png \
   --weights_path results/SRCNN_x2_binary_edge_enhance/best.pth.tar
