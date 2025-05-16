@@ -32,7 +32,7 @@ requirements.txt
 
 ## 🚀 Installation
 ```
-git clone https://github.com/yourusername/edge-guided-srcnn.git
+git clone https://github.com/Kenny-Huang-mz/Edeg-Enhanced-Super-Resolution-using-Image-Expansion.git
 cd edge-guided-srcnn
 conda create -n SRCNN python=3.9
 conda activate SRCNN
